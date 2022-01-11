@@ -3,7 +3,7 @@ function gaytext
 end
 
 function fsck-fix
-   fsck -a $argv
+   sudo fsck -a $argv
 end
 
 neofetch --ascii_distro anarchy | lolcat
