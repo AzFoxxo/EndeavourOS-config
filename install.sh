@@ -25,7 +25,7 @@ yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux
 yes | sudo pacman -S alacritty
 
 # Multimedia
-yes | sudo pacman -S kdenlive krita gmic gimp vlc blender
+yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity
 
 # Development
 yay -S visual-studio-code-insiders-bin
