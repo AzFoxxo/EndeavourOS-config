@@ -21,7 +21,7 @@ sudo modprobe vboxdrv
 sudo pacman -S steam discord telegram-desktop
 
 # Utilities
-yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux
+yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs
 yes | sudo pacman -S alacritty
 
 # Multimedia
