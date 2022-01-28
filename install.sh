@@ -49,4 +49,6 @@ rm -r ~/.config/fish; mkdir ~/.config/fish; cp confs/config.fish ~/.config/fish
 rm -r ~/.config/alacritty/; mkdir ~/.config/alacritty; cp confs/alacritty.yml ~/.config/alacritty
 
 # restart
+echo "Press enter to reboot the system now!"
+read
 reboot
