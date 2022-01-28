@@ -7,12 +7,12 @@ yay -Syyu
 sudo pacman -R linux-lts
 
 # Nvida driver
-sudo pacman -S nvidia-installer-dkms
-sudo pacman -S linux-headers
-sudo nvidia-installer-dkms
+yes | sudo pacman -S nvidia-installer-dkms
+yes | sudo pacman -S linux-headers
+yes | sudo nvidia-installer-dkms
 
 # Graphics card driver
-yay -S xp-pen-tablet
+yes | yay -S xp-pen-tablet
 
 # VirtualBox
 sudo pacman -S virtualbox virtualbox-guest-iso
