@@ -29,7 +29,7 @@ yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity
 
 # Development
 yes | yay -S visual-studio-code-insiders-bin
-yes |  yay -S unityhub-beta
+yes |  yay -S unityhub-beta godot
 
 # Office programs
 yes | sudo pacman -S libreoffice-fresh
@@ -37,6 +37,10 @@ yes | yay -S onlyoffice-bin
 
 # Games
 yes | sudo pacman -S minetest supertuxkart
+
+# Wine and Crossover
+yes | yay -S crossover
+yes | sudo pacman -S wine wine-mono wine-gecko
 
 # Emoji support
 yes | sudo pacman -S noto-fonts-emoji
