@@ -23,6 +23,7 @@ yes | sudo pacman -S steam discord telegram-desktop
 # Utilities
 yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs
 yes | sudo pacman -S alacritty
+yes | yay -S  ttf-ms-win10-auto
 
 # Multimedia
 yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity
