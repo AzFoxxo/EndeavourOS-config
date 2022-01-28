@@ -23,6 +23,7 @@ alias cat bat
 
 alias c. 'code-insiders .'
 alias code. 'code-insiders .'
+alias code 'code-insiders .'
 
 alias v nvim
 alias vim nvim
@@ -43,9 +44,9 @@ alias cpr 'cp -r'
 alias dol dolphin
 alias dol. 'dolphin .'
 
-alias up 'yay -Syyu; yay -Scc'
-alias upp 'yay -Syyu; yay -Scc; poweroff'
-alias upr 'yay -Syyu; yay -Scc; reboot'
+alias up 'yay -Syyu; yes | yay -Scc'
+alias upp 'yay -Syyu; yes |yay -Scc; poweroff'
+alias upr 'yay -Syyu; yes | yay -Scc; reboot'
 
 alias krestart 'pkill plasmashell; plasmashell --replace &; disown; exit;'
 
