@@ -18,7 +18,7 @@ yes | yay -S xp-pen-tablet
 yes | sudo pacman -S virtualbox virtualbox-guest-iso
 sudo modprobe vboxdrv
 
-sudo pacman -S steam discord telegram-desktop
+yes | sudo pacman -S steam discord telegram-desktop
 
 # Utilities
 yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs
