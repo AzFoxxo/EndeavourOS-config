@@ -15,7 +15,7 @@ yes | sudo nvidia-installer-dkms
 yes | yay -S xp-pen-tablet
 
 # VirtualBox
-sudo pacman -S virtualbox virtualbox-guest-iso
+yes | sudo pacman -S virtualbox virtualbox-guest-iso
 sudo modprobe vboxdrv
 
 sudo pacman -S steam discord telegram-desktop
