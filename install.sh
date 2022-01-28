@@ -31,6 +31,10 @@ yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity
 yes | yay -S visual-studio-code-insiders-bin
 yes |  yay -S unityhub-beta
 
+# Office programs
+yes | sudo pacman -S libreoffice-fresh
+yes | yay -S onlyoffice-bin
+
 # Games
 yes | sudo pacman -S minetest supertuxkart
 
