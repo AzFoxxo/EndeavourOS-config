@@ -28,18 +28,18 @@ yes | sudo pacman -S alacritty
 yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity
 
 # Development
-yay -S visual-studio-code-insiders-bin
-yay -S unityhub-beta
+yes | yay -S visual-studio-code-insiders-bin
+yes |  yay -S unityhub-beta
 
 # Games
-sudo pacman -S minetest supertuxkart
+yes | sudo pacman -S minetest supertuxkart
 
 # Emoji support
 yes | sudo pacman -S noto-fonts-emoji
 
 # System monitors
 yes | sudo pacman -S plasma-systemmonitor htop
-yay -S gotop-bin
+yes | yay -S gotop-bin
 
 # Change shell
 chsh -s /usr/bin/fish
