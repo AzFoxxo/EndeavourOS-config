@@ -26,7 +26,7 @@ yes | sudo pacman -S alacritty
 yes | yay -S  ttf-ms-win10-auto
 
 # Multimedia
-yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity
+yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity inkscpae
 
 # Development
 yes | yay -S visual-studio-code-insiders-bin
