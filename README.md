@@ -4,8 +4,8 @@ This script assumes you have KDE Plasma already installed and that you use XP-Pe
 
 ## Run the script
 ```sh
-git clone https://github.com/KnotMasterAz/endeavouros-kde-setup-script.git
-cd endeavouros-kde-setup-script
+git clone https://github.com/KnotMasterAz/endeavouros-config.git
+cd endeavouros-config
 chmod +x install.sh
 ./install.sh
 ```
