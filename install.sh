@@ -49,7 +49,7 @@ yes | sudo pacman -S noto-fonts-emoji
 
 # System monitors
 yes | sudo pacman -S plasma-systemmonitor htop
-yes | yay -S gotop-bin
+yes | yay -S gotop
 
 # Change shell
 chsh -s /usr/bin/fish
