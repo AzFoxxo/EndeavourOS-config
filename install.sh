@@ -41,8 +41,7 @@ yes | yay -S texlive-full texlive-lang
 # Games
 yes | sudo pacman -S minetest supertuxkart
 
-# Wine and Crossover
-yes | yay -S crossover
+# Wine
 yes | sudo pacman -S wine wine-mono wine-gecko
 
 # Emoji support
