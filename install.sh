@@ -36,6 +36,7 @@ yes | sudo pacman -S dotnet-sdk
 # Office programs
 yes | sudo pacman -S libreoffice-fresh
 yes | yay -S onlyoffice-bin
+yes | yay -S texlive-full texlive-lang
 
 # Games
 yes | sudo pacman -S minetest supertuxkart
