@@ -18,7 +18,7 @@ yes | yay -S xp-pen-tablet
 yes | sudo pacman -S virtualbox virtualbox-guest-iso
 sudo modprobe vboxdrv
 
-yes | sudo pacman -S steam discord telegram-desktop
+yes | sudo pacman -S steam discord telegram-desktop spotify
 
 # Utilities
 yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs
@@ -32,6 +32,7 @@ yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity inkscpae
 yes | yay -S visual-studio-code-insiders-bin
 yes |  yay -S unityhub-beta godot
 yes | sudo pacman -S dotnet-sdk
+yes | yay -S texlive-full
 
 # Office programs
 yes | sudo pacman -S libreoffice-fresh
