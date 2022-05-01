@@ -21,6 +21,7 @@ sudo modprobe vboxdrv
 yes | sudo pacman -S steam discord telegram-desktop spotify element-desktop 
 yes | yay -S whalebird-bin
 yes | yay -S webcord-git
+yes | yay -S moderndeck-bin
 
 # Utilities
 yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs
