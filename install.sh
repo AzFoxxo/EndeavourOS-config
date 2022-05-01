@@ -42,7 +42,8 @@ yes | yay -S texlive-full texlive-lang
 yes | sudo pacman -S minetest supertuxkart
 
 # Wine
-yes | sudo pacman -S wine wine-mono wine-gecko
+yes | sudo pacman -S wine wine-mono wine-gecko bottles
+yes | yay -S bottles
 
 # Emoji support
 yes | sudo pacman -S noto-fonts-emoji
