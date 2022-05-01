@@ -19,6 +19,7 @@ yes | sudo pacman -S virtualbox virtualbox-guest-iso
 sudo modprobe vboxdrv
 
 yes | sudo pacman -S steam discord telegram-desktop spotify
+yes | yay -S whalebird-bin
 
 # Utilities
 yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs
