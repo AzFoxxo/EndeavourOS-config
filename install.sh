@@ -35,7 +35,7 @@ yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity inkscpae
 yes | yay -S visual-studio-code-insiders-bin
 yes |  yay -S unityhub-beta godot
 yes | sudo pacman -S dotnet-sdk
-yes | yay -S texlive-full
+yes | yay -S texlive-core #texlive-full
 
 # Office programs
 yes | sudo pacman -S libreoffice-fresh
