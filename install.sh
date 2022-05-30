@@ -35,7 +35,7 @@ yes | yay -S  ttf-ms-win10-auto
 yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity inkscpae
 
 # Development
-yes | yay -S visual-studio-code-insiders-bin
+yes | yay -S code-insiders
 yes |  yay -S unityhub-beta godot
 yes | sudo pacman -S dotnet-sdk
 yes | yay -S texlive-core #texlive-full
