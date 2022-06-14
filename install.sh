@@ -21,7 +21,7 @@ yay -S alvr
 yes | sudo pacman -S virtualbox virtualbox-guest-iso
 sudo modprobe vboxdrv
 
-yes | sudo pacman -S steam discord telegram-desktop spotify element-desktop 
+yes | sudo pacman -S steam discord telegram-desktop spotify element-desktop lutris
 yes | yay -S whalebird-bin
 yes | yay -S webcord-git
 yes | yay -S moderndeck-bin
