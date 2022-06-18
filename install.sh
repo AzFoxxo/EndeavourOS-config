@@ -9,20 +9,26 @@ yes | sudo pacman -S linux-lts linux-lts-header # Linux LTS Kernel
 
 # Nvida driver
 yes | sudo pacman -S nvidia-installer-dkms
-yes | sudo pacman -S linux-headers
 yes | sudo nvidia-installer-dkms
 
-# Graphics card driver
+# Graphics card driver for XP Pen
 yes | yay -S xp-pen-tablet
 
-# VR stuff
+# VR - Oculus Support
 yay -S alvr
 
 # VirtualBox
 yes | sudo pacman -S virtualbox virtualbox-guest-iso
 sudo modprobe vboxdrv
 
-yes | sudo pacman -S steam spotify lutris
+# Games
+ yes | sudo pacman -S steam
+ yes | sudo pacman -S lutris
+
+# Services
+yes | yay -S spotify
+
+# Social media
 yes | yay -S whalebird-bin # Mastodon
 yes | yay -S moderndeck-bin # Twitter
 yes | sudo pacman -S discord-canary # Discord
@@ -36,7 +42,13 @@ yes | sudo pacman -S plasma-systemmonitor htop # System monitors
 yes | yay -S gotop # Pretty terminal system monitor
 
 # Multimedia
-yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity inkscpae
+yes | sudo pacman -S kdenlive # Video editor
+yes | sudo pacman -S krita gmic # Krita image editor and digital art
+yes | sudo pacman -S gimp # Image editor
+yes | sudo pacman -S vlc # Video player
+yes | sudo pacman -S blender # Modelling program
+yes | sudo pacman -S audacity # Audio recording and editing program
+yes | sudo pacman -S inkscpae # Vector program
 
 # Development
 yes | yay -S code-insiders # Code editors
@@ -46,7 +58,7 @@ yes | yay -S texlive-core #texlive-full
 
 # Office programs
 yes | sudo pacman -S libreoffice-fresh # Actualy good office program - Libreoffice
-yes | yay -S onlyoffice-bin # MS like office program - OnlyOffice
+yes | yay -S onlyoffice-bin # MS like office program for quickly editing docs - OnlyOffice
 yes | yay -S texlive-full texlive-langextra # Latex support
 
 # FOSS Games
@@ -54,7 +66,7 @@ yes | sudo pacman -S minetest # Minetest
 yes | sudo pacman -S supertuxkart # Super Tux Kart
 
 # Wine (Windows compatibility)
-yes | sudo pacman -S wine wine-mono wine-gecko bottles
+yes | sudo pacman -S wine wine-mono wine-gecko
 yes | yay -S bottles
 
 # Fonts
