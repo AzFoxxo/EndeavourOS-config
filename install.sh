@@ -3,8 +3,9 @@
 # Update
 yay -Syyu
 
-# remove lts kernel, if installed
-sudo pacman -R linux-lts
+# Install kernels and headers
+yes | sudo pacman -S linux linux-headers # Linux kernel
+yes | sudo pacman -S linux-lts linux-lts-header # Linux LTS Kernel
 
 # Nvida driver
 yes | sudo pacman -S nvidia-installer-dkms
@@ -38,9 +39,9 @@ yes | yay -S gotop # Pretty terminal system monitor
 yes | sudo pacman -S kdenlive krita gmic gimp vlc blender audacity inkscpae
 
 # Development
-yes | yay -S code-insiders
-yes |  yay -S unityhub-beta godot
-yes | sudo pacman -S dotnet-sdk
+yes | yay -S code-insiders # Code editors
+yes |  yay -S unityhub-beta godot-mono-bin # Game engines
+yes | sudo pacman -S dotnet-sdk # Language tooling
 yes | yay -S texlive-core #texlive-full
 
 # Office programs
