@@ -40,6 +40,7 @@ yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs # Useful comm
 yes | sudo pacman -S alacritty # Alacritty terminal
 yes | sudo pacman -S plasma-systemmonitor htop # System monitors
 yes | yay -S gotop # Pretty terminal system monitor
+yes | yay -S timeshift-bin # System backup
 
 # Multimedia
 yes | sudo pacman -S kdenlive # Video editor
