@@ -36,7 +36,7 @@ yes | sudo pacman -S element-desktop # Element
 yes | sudo pacman -S telegram-desktop # Telegram
 
 # Utilities
-yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs # Useful command line utilities
+yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs ripgrep # Useful command line utilities
 yes | sudo pacman -S alacritty # Alacritty terminal
 yes | sudo pacman -S plasma-systemmonitor htop procs # System monitors
 yes | yay -S gotop # Pretty terminal system monitor
