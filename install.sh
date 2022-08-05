@@ -38,7 +38,7 @@ yes | sudo pacman -S telegram-desktop # Telegram
 # Utilities
 yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs # Useful command line utilities
 yes | sudo pacman -S alacritty # Alacritty terminal
-yes | sudo pacman -S plasma-systemmonitor htop # System monitors
+yes | sudo pacman -S plasma-systemmonitor htop procs # System monitors
 yes | yay -S gotop # Pretty terminal system monitor
 yes | yay -S timeshift-bin # System backup
 
@@ -56,6 +56,7 @@ yes | yay -S code-insiders # Code editors
 yes |  yay -S unityhub-beta godot-mono-bin # Game engines
 yes | sudo pacman -S dotnet-sdk # Language tooling
 yes | yay -S texlive-core #texlive-full
+yes | yay -S tokei
 
 # Office programs
 yes | sudo pacman -S libreoffice-fresh # Actualy good office program - Libreoffice
