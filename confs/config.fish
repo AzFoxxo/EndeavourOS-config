@@ -6,6 +6,24 @@ function fsck-fix
    sudo fsck -a $argv
 end
 
+# Notes
+alias notes="typora /data/notes &"
+
+# Note push function
+function note-push
+	cd /data/notes
+	git add .
+	git commit -m "Push to git repo"
+	git push
+end
+
+# Note pull function
+function note-pull
+	cd /data/notes
+	git pull
+end
+
+
 neofetch --ascii_distro anarchy | lolcat
 
 alias fishrc "nvim ~/.config/fish/config.fish; source ~/.config/fish/config.fish"
