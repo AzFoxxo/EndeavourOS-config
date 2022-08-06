@@ -62,6 +62,7 @@ yes | yay -S tokei
 yes | sudo pacman -S libreoffice-fresh # Actualy good office program - Libreoffice
 yes | yay -S onlyoffice-bin # MS like office program for quickly editing docs - OnlyOffice
 yes | yay -S texlive-full texlive-langextra # Latex support
+yes | yay -S typora-free
 
 # FOSS Games
 yes | sudo pacman -S minetest # Minetest
