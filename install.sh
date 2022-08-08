@@ -44,6 +44,7 @@ yes | sudo pacman -S alacritty # Alacritty terminal
 yes | sudo pacman -S plasma-systemmonitor htop procs # System monitors
 yes | yay -S gotop # Pretty terminal system monitor
 yes | yay -S timeshift-bin # System backup
+yay -S --nonconfirm pfetch # Neofetch replacement
 
 # Multimedia
 yes | sudo pacman -S kdenlive # Video editor
