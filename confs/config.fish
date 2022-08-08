@@ -24,7 +24,7 @@ function note-pull
 end
 
 
-neofetch --ascii_distro anarchy | lolcat
+pfetch | lolcat
 
 alias fishrc "nvim ~/.config/fish/config.fish; source ~/.config/fish/config.fish"
 alias alacrittyrc "nvim ~/.config/alacritty/alacritty.yml"
