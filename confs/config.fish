@@ -7,7 +7,7 @@ function fsck-fix
 end
 
 # Notes
-alias notes="typora /data/notes &"
+alias notes="typora /data/notes &; disown"
 
 # Note push function
 function note-push
