@@ -12,7 +12,7 @@ yes | sudo pacman -S nvidia-installer-dkms
 yes | sudo nvidia-installer-dkms
 
 # Addons for KDE
-yay -S kdeplasma-addons
+sudo pacman -S kdeplasma-addons --noconfirm
 
 # Graphics card driver for XP Pen
 yes | yay -S xp-pen-tablet
