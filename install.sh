@@ -21,7 +21,7 @@ yes | yay -S xp-pen-tablet
 yay -S alvr
 
 # VirtualBox
-yes | sudo pacman -S virtualbox virtualbox-guest-iso
+sudo pacman -S virtualbox virtualbox-guest-iso
 sudo modprobe vboxdrv
 
 # Games
