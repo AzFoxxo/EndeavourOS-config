@@ -59,13 +59,11 @@ yes | sudo pacman -S inkscpae # Vector program
 yes | yay -S code-insiders # Code editors
 yes |  yay -S unityhub-beta godot-mono-bin # Game engines
 yes | sudo pacman -S dotnet-sdk # Language tooling
-yes | yay -S texlive-core #texlive-full
 yes | yay -S tokei
 
 # Office programs
 yes | sudo pacman -S libreoffice-fresh # Actualy good office program - Libreoffice
 yes | yay -S onlyoffice-bin # MS like office program for quickly editing docs - OnlyOffice
-yes | yay -S texlive-full texlive-langextra # Latex support
 yes | yay -S typora-free
 
 # FOSS Games
