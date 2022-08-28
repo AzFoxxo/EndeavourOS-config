@@ -14,6 +14,9 @@ yes | sudo nvidia-installer-dkms
 # Addons for KDE
 sudo pacman -S kdeplasma-addons --noconfirm
 
+# Latte dock
+sudo pacman -S --noconfirm latte-dock
+
 # Graphics card driver for XP Pen
 yes | yay -S xp-pen-tablet
 
