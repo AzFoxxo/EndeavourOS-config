@@ -48,7 +48,7 @@ yes | sudo pacman -S plasma-systemmonitor htop procs # System monitors
 yes | yay -S gotop # Pretty terminal system monitor
 yes | yay -S timeshift-bin # System backup
 yay -S --noconfirm pfetch # Neofetch replacement
-yes -S --noconfirm tor-browser # Tor Browser
+yay -S --noconfirm tor-browser # Tor Browser
 
 # Multimedia
 yes | sudo pacman -S kdenlive # Video editor
