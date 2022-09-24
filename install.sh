@@ -5,7 +5,7 @@ yay -Syyu
 
 # Install kernels and headers
 yes | sudo pacman -S linux linux-headers # Linux kernel
-yes | sudo pacman -S linux-lts linux-lts-header # Linux LTS Kernel
+yes | sudo pacman -S linux-lts linux-lts-headers # Linux LTS Kernel
 
 # Nvida driver
 yes | sudo pacman -S nvidia-installer-dkms
