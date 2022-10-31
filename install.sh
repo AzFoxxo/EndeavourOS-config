@@ -4,12 +4,12 @@
 yay -Syyu
 
 # Install kernels and headers
-yes | sudo pacman -S linux linux-headers # Linux kernel
-yes | sudo pacman -S linux-lts linux-lts-headers # Linux LTS Kernel
+sudo pacman -S linux linux-headers --noconfirm # Linux kernel
+sudo pacman -S linux-lts linux-lts-headers --noconfirm # Linux LTS Kernel
 
 # Nvida driver
-yes | sudo pacman -S nvidia-installer-dkms
-yes | sudo nvidia-installer-dkms
+sudo pacman -S nvidia-installer-dkms --noconfirm
+sudo nvidia-installer-dkms --noconfirm
 
 # Addons for KDE
 sudo pacman -S kdeplasma-addons --noconfirm
@@ -17,70 +17,70 @@ sudo pacman -S kdeplasma-addons --noconfirm
 # Latte dock
 sudo pacman -S --noconfirm latte-dock
 
-# Graphics card driver for XP Pen
-yes | yay -S xp-pen-tablet
+# Graphics tablet driver for XP Pen
+yay -S xp-pen-tablet --noconfirm
 
 # VR - Oculus Support
-yay -S alvr
+yay -S alvr --noconfirm
 
 # VirtualBox
-sudo pacman -S virtualbox virtualbox-guest-iso
+sudo pacman -S virtualbox virtualbox-guest-iso --noconfirm
 sudo modprobe vboxdrv
 
 # Games
- yes | sudo pacman -S steam
- yes | sudo pacman -S lutris
+sudo pacman -S steam --noconfirm
+sudo pacman -S lutris --noconfirm
 
 # Services
-yes | yay -S spotify
+yay -S spotify --noconfirm
 
 # Social media
-yes | yay -S whalebird-bin # Mastodon
-yes | yay -S moderndeck-bin # Twitter
-yes | sudo pacman -S discord-canary # Discord
-yes | sudo pacman -S element-desktop # Element
-yes | sudo pacman -S telegram-desktop # Telegram
+yay -S whalebird-bin --noconfirm # Mastodon
+yay -S moderndeck-bin --noconfirm # Twitter
+sudo pacman -S discord-canary --noconfirm # Discord
+sudo pacman -S element-desktop --noconfirm # Element
+sudo pacman -S telegram-desktop --noconfirm # Telegram
 
 # Utilities
-yes | sudo pacman -S fish exa bat neovim tldr lolcat fd tmux sshfs ripgrep # Useful command line utilities
-yes | sudo pacman -S alacritty # Alacritty terminal
-yes | sudo pacman -S plasma-systemmonitor htop procs # System monitors
-yes | yay -S gotop # Pretty terminal system monitor
-yes | yay -S timeshift-bin # System backup
+sudo pacman -S --noconfirm fish exa bat neovim tldr lolcat fd tmux sshfs ripgrep # Useful command line utilities
+sudo pacman -S --noconfirm alacritty # Alacritty terminal
+sudo pacman -S --noconfirm plasma-systemmonitor htop procs # System monitors
+yay -S --noconfirm gotop # Pretty terminal system monitor
+yay -S --noconfirm timeshift-bin # System backup
 yay -S --noconfirm pfetch # Neofetch replacement
 yay -S --noconfirm tor-browser # Tor Browser
 
 # Multimedia
-yes | sudo pacman -S kdenlive # Video editor
-yes | sudo pacman -S krita gmic # Krita image editor and digital art
-yes | sudo pacman -S gimp # Image editor
-yes | sudo pacman -S vlc # Video player
-yes | sudo pacman -S blender # Modelling program
-yes | sudo pacman -S audacity # Audio recording and editing program
-yes | sudo pacman -S inkscpae # Vector program
+sudo pacman -S --noconfirm kdenlive # Video editor
+sudo pacman -S --noconfirm krita gmic # Krita image editor and digital art
+sudo pacman -S --noconfirm gimp # Image editor
+sudo pacman -S --noconfirm vlc # Video player
+sudo pacman -S --noconfirm blender # Modelling program
+sudo pacman -S --noconfirm audacity # Audio recording and editing program
+sudo pacman -S --noconfirm inkscpae # Vector program
 
 # Development
-yes | yay -S code-insiders # Code editors
-yes |  yay -S unityhub-beta godot-mono-bin # Game engines
-yes | sudo pacman -S dotnet-sdk # Language tooling
-yes | yay -S tokei
+yay -S --noconfirm code-insiders # Code editors
+yay -S --noconfirm unityhub-beta godot-mono-bin # Game engines
+sudo pacman -S --noconfirm dotnet-sdk # Language tooling
+yay -S --noconfirm tokei
 
 # Office programs
-yes | sudo pacman -S libreoffice-fresh # Actualy good office program - Libreoffice
-yes | yay -S onlyoffice-bin # MS like office program for quickly editing docs - OnlyOffice
-yes | yay -S typora-free
+sudo pacman -S --noconfirm libreoffice-fresh # Actualy good office program - Libreoffice
+yay -S --noconfirm onlyoffice-bin # MS like office program for quickly editing docs - OnlyOffice
+yay -S --noconfirm typora-free
 
 # FOSS Games
-yes | sudo pacman -S minetest # Minetest
-yes | sudo pacman -S supertuxkart # Super Tux Kart
+sudo pacman -S --noconfirm minetest # Minetest
+sudo pacman -S --noconfirm supertuxkart # Super Tux Kart
 
 # Wine (Windows compatibility)
-yes | sudo pacman -S wine wine-mono wine-gecko
-yes | yay -S bottles
+sudo pacman -S --noconfirm wine wine-mono wine-gecko
+yay -S --noconfirm bottles
 
 # Fonts
-yes | yay -S ttf-ms-win11-auto # Windows fonts
-yes | sudo pacman -S noto-fonts-emoji # Emoji support
+yay -S --noconfirm ttf-ms-win11-auto # Windows fonts
+sudo pacman -S --noconfirm noto-fonts-emoji # Emoji support
 
 # Change shell to fish
 chsh -s /usr/bin/fish
