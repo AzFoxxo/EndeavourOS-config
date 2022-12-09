@@ -1,3 +1,5 @@
+alias azzy "~/AzzyShell/AzzyShell" 
+
 function gaytext
     echo $argv | lolcat
 end
@@ -62,13 +64,20 @@ alias cpr 'cp -r'
 alias dol dolphin
 alias dol. 'dolphin .'
 
-alias up 'yay -Syyu; yes | yay -Scc'
-alias upp 'yay -Syyu; yes |yay -Scc; poweroff'
-alias upr 'yay -Syyu; yes | yay -Scc; reboot'
+#Fish
+alias up 'yay -Syyu --noconfirm; yes | yay -Scc'
+alias upp 'yay -Syyu --noconfirm; yes | yay -Scc; poweroff'
+alias upr 'yay -Syyu --noconfirm; yes | yay -Scc; reboot'
 
 alias krestart 'pkill plasmashell; plasmashell --replace &; disown; exit;'
 
 alias rm~ 'rm *~*'
+
+# Useful aliases
+alias dn "dotnet run"
+alias dnt dotnet
+alias win "cd /windata/"
+alias dt "cd /data/"
 
 export EDITOR=nvim
 
