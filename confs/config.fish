@@ -1,5 +1,3 @@
-alias azzy "~/AzzyShell/AzzyShell" 
-
 function gaytext
     echo $argv | lolcat
 end
@@ -9,11 +7,11 @@ function fsck-fix
 end
 
 # Notes
-alias notes="typora /data/notes &; disown"
+alias notes="cd /dt/notes; code ."
 
 # Note push function
 function note-push
-	cd /data/notes
+	cd /dt/notes
 	git add .
 	git commit -m "Push to git repo"
 	git push
@@ -21,7 +19,7 @@ end
 
 # Note pull function
 function note-pull
-	cd /data/notes
+	cd /dt/notes
 	git pull
 end
 
@@ -29,7 +27,7 @@ end
 pfetch | lolcat
 
 alias fishrc "nvim ~/.config/fish/config.fish; source ~/.config/fish/config.fish"
-alias alacrittyrc "nvim ~/.config/alacritty/alacritty.yml"
+alias alacrittyrc "nvim ~/.config/alacritty/alacritty.toml"
 
 alias l "exa -ah"
 alias la 'exa -ah'
@@ -76,8 +74,9 @@ alias rm~ 'rm *~*'
 # Useful aliases
 alias dn "dotnet run"
 alias dnt dotnet
-alias win "cd /windata/"
-alias dt "cd /data/"
+alias win "cd /win/"
+alias dt "cd /dt/"
+alias winos "cd /winos/"
 
 export EDITOR=nvim
 
