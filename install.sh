@@ -33,8 +33,8 @@ yay -S spotify spotify-adblock --noconfirm
 # Social media
 yay -S whalebird-bin --noconfirm # Mastodon
 yay -S moderndeck-bin --noconfirm # Twitter
-sudo pacman -S discord-canary --noconfirm # Discord
-yay -S discord-canary-update-skip-git
+sudo pacman -S discord discord-canary --noconfirm # Discord
+yay -S discord-canary-update-skip-git discord-update-skip-git
 sudo pacman -S element-desktop --noconfirm # Element
 sudo pacman -S telegram-desktop --noconfirm # Telegram
 
