@@ -74,9 +74,8 @@ alias rm~ 'rm *~*'
 # Useful aliases
 alias dn "dotnet run"
 alias dnt dotnet
-alias win "cd /win/"
 alias dt "cd /dt/"
-alias winos "cd /winos/"
+alias win "cd /win/"
 
 export EDITOR=nvim
 
