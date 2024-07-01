@@ -66,7 +66,6 @@ yay -S --noconfirm tokei
 # Office programs
 sudo pacman -S --noconfirm libreoffice-fresh # Actualy good office program - Libreoffice
 yay -S --noconfirm onlyoffice-bin # MS like office program for quickly editing docs - OnlyOffice
-yay -S --noconfirm typora-free
 
 # FOSS Games
 sudo pacman -S --noconfirm minetest # Minetest
