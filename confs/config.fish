@@ -56,13 +56,14 @@ alias mem 'watch -n 0.1 free -m'
 alias u 'uname -a'
 alias t tldr
 
+alias secdel "shred --remove --iterations 1000"
+alias his history
 alias rmr 'rm -r'
 alias cpr 'cp -r'
 
 alias dol dolphin
 alias dol. 'dolphin .'
 
-#Fish
 alias up 'yay -Syyu --noconfirm; yes | yay -Scc'
 alias upp 'yay -Syyu --noconfirm; yes | yay -Scc; poweroff'
 alias upr 'yay -Syyu --noconfirm; yes | yay -Scc; reboot'
